@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Inter&family=Questrial&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/401b50dfec.js" crossorigin="anonymous"></script>
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Nord Est test</title>
+</head>
+
+<body class="bg-dark">
+  <!-- Navigation -->
+  <nav class="relative p-4 bg-dark border-gray-700 border-b">
+    <!-- Flex container -->
+    <div class="flex mx-10 items-center justify-between">
+      <!-- Logo -->
+      <div class="text-white">
+        <h4 class="logo">amy yang</h4>
+      </div>
+      <!-- Navbar links -->
+      <div class="nav hidden md:flex items-center space-x-10">
+        <a href="#about" class=" text-white uppercase font-questrial">About</a>
+        <a href="#projects" class="text-white uppercase font-questrial">Projects</a>
+        <a href="#contact" class="bg-gray-700 py-1 px-4 rounded-full  text-white font-questrial">Get in touch</a>
+      </div>
+      <!-- Hamburger Icon -->
+      <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="md:hidden">
+      <div id="menu"
+        class="absolute bg-dark flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-primary sm:w-auto sm:self-center left-0 right-0 drop-shadow-md">
+        <a href="#about" class=" text-white uppercase font-questrial">About</a>
+        <a href="#projects" class="text-white uppercase font-questrial">Projects</a>
+        <a href="#contact" class="bg-gray-700 py-1 px-4 rounded-full  text-white font-questrial">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="container mx-auto flex justify-center">
+    <div class="w-full bg-white mt-20 rounded-3xl px-10 py-14">
+      <h1 class="font-anticDidone text-lg">hello!</h1>
+      <p class="text-sm">I'm Amy, and I currently attend UBC for engineering.</p>
+      <p class="text-sm mb-5">Welcome to my portfolio!</p>
+
+      <div class="flex justify-between">
+        <div class="flex flex-wrap items-center space-x-1">
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+          <i class="fa-brands fa-github fa-2x"></i>
+          <i class="fa-brands fa-figma fa-2x"></i>
+          <i class="fa-brands fa-square-behance fa-2x"></i>
+        </div>
+
+        <div class="flex flex-wrap space-x-1 space-y-1">
+          <a href="#" class="text-gray-700 border px-5 rounded-full text-sm py-1 border-gray-600 my-1">view projects</a>
+          <a href="#" class="text-white px-5 rounded-full text-sm py-1 bg-gray-600">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About me -->
+  <section id="about" class="container mx-auto md:flex justify-center text-white mt-32">
+    <div class="w-full md:w-3/6 text-center">
+      <p class="font-anticDidone font-normal text-4xl">about me</p>
+    </div>
+    <div class="w-full md:1/2 text-center mt-2 md:text-start">
+      <p>
+        Hello! My name is Amy and I enjoy creating things. <br><br>
+        Ab galisum magni non aperiam iusto et pariatur aliquam aut velit nobis et autem error. Qui veniam minima est
+        dicta nisi sit earum numquam aut repellat unde. Non nisi adipisci est distinctio voluptatem qui beatae quis ad
+        enim facere cum quaerat officia aut suscipit possimus? <br><br>
+
+        Qui vero dolorem qui veniam illum eos omnis molestiae 33 deleniti omnis! Aut illum accusantium qui nemo
+        praesentium vel quidem illum aut necessitatibus sint et rerum fuga est modi libero. Qui dicta itaque.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Interest -->
+  <section class="container text-white mx-auto justify-center mt-32">
+    <h3 class="font-anticDidone text-4xl font-normal text-center">interests</h3>
+    <p class="text-center">Some things I enjoy learning about and doing</p>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-10">
+      <div class="bg-gray-600 text-center align-center py-10 flex items-center justify-center rounded-3xl text-xs">
+        SOFTWARE</div>
+      <div class="bg-gray-600 text-center align-center py-10 flex items-center justify-center rounded-3xl text-xs">
+        VISUAL IDENTITY & <br>BRANDING</div>
+      <div class="bg-gray-600 text-center align-center py-10 flex items-center justify-center rounded-3xl text-xs">
+        MARKETING</div>
+      <div class="bg-gray-600 text-center align-center py-10 flex items-center justify-center rounded-3xl text-xs">
+        BUILDING THINGS</div>
+      <div class="bg-gray-600 text-center align-center py-10 flex items-center justify-center rounded-3xl text-xs">
+        GRAPHIC DESIGN</div>
+      <div class="bg-gray-600 text-center align-center py-10 flex items-center justify-center rounded-3xl text-xs">
+        VOLLEYBALL</div>
+    </div>
+  </section>
+
+  <!-- Project -->
+  <section id="projects" class="container text-white mx-auto justify-center mt-32">
+    <h3 class="font-anticDidone text-4xl font-normal text-center">projects</h3>
+    <p class="text-center">Some things I’ve worked (or am working) on</p>
+    <div class="flex flex-wrap space-x-4 space-y-2 mt-10">
+      <div class="w-full md:w-5/12">
+        <img src="images/project1.png" alt="">
+      </div>
+      <div class="w-full md:w-1/2">
+        <h3 class="text-gray-600 text-sm uppercase">Web Development</h3>
+        <h2 class="text-2xl font-anticDidone">Personal Website</h2>
+        <p class="text-xs">Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo
+          reprehenderit sequi et sint exercitationem eum sequi eligendi et similique ratione. Non quas itaque qui odio
+          incidunt in ducimus consequatur. Eum ullam eius hic voluptates tenetur nam consectetur possimus. Et voluptatem
+          consequatur.</p>
+        <div class="flex justify-between mt-5">
+          <div class="flex flex-wrap items-center space-x-2">
+            <img src="images/html.png" class="w-4" alt="">
+            <img src="images/css.png" class="w-4" alt="">
+            <img src="images/design.png" class="w-4" alt="">
+            <img src="images/ai.png" class="w-4" alt="">
+            <img src="images/figma.svg" class="w-4" alt="">
+          </div>
+
+          <div class="flex flex-wrap space-x-1 space-y-1">
+            <a href="#" class="text-white px-5 rounded-full text-sm py-1 bg-gray-600 uppercase">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap-reverse md:space-x-4 space-y-2 mt-10">
+      <div class="w-full md:w-1/2">
+        <h3 class="text-gray-600 text-sm uppercase">Mechanical Design</h3>
+        <h2 class="text-2xl font-anticDidone">UBC AeroDesign</h2>
+        <p class="text-xs">Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo
+          reprehenderit sequi et sint exercitationem eum sequi eligendi et similique ratione. Non quas itaque qui odio
+          incidunt in ducimus consequatur. Eum ullam eius hic voluptates tenetur nam consectetur possimus. Et voluptatem
+          consequatur.</p>
+        <div class="flex justify-between mt-5">
+          <div class="flex flex-wrap items-center space-x-2">
+            <img src="images/mechanical.png" class="w-4" alt="">
+          </div>
+
+          <div class="flex flex-wrap space-x-1 space-y-1">
+            <a href="#" class="text-white px-5 rounded-full text-sm py-1 bg-gray-600 uppercase">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-5/12">
+        <img src="images/project2.png" alt="">
+      </div>
+    </div>
+    <div class="flex flex-wrap space-x-4 space-y-2 mt-10">
+      <div class="w-full md:w-5/12">
+        <img src="images/project1.png" alt="">
+      </div>
+      <div class="w-full md:w-1/2">
+        <h3 class="text-gray-600 text-sm uppercase">Branding & Marketing</h3>
+        <h2 class="text-2xl font-anticDidone">UBC AeroDesign</h2>
+        <p class="text-xs">Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo
+          reprehenderit sequi et sint exercitationem eum sequi eligendi et similique ratione. Non quas itaque qui odio
+          incidunt in ducimus consequatur. Eum ullam eius hic voluptates tenetur nam consectetur possimus. Et voluptatem
+          consequatur.</p>
+        <div class="flex justify-between mt-5">
+          <div class="flex flex-wrap items-center space-x-2">
+            <img src="images/ai.png" class="w-4" alt="">
+            <img src="images/figma.svg" class="w-4" alt="">
+          </div>
+
+          <div class="flex flex-wrap space-x-1 space-y-1">
+            <a href="#" class="text-white px-5 rounded-full text-sm py-1 bg-gray-600 uppercase">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap-reverse md:space-x-4 space-y-2 mt-10">
+      <div class="w-full md:w-1/2">
+        <h3 class="text-gray-600 text-sm uppercase">Graphic Design</h3>
+        <h2 class="text-2xl font-anticDidone">Poster</h2>
+        <p class="text-xs">Lorem ipsum dolor sit amet. Qui consequatur rerum eum assumenda accusamus et fuga numquam quo
+          reprehenderit sequi et sint exercitationem eum sequi eligendi et similique ratione. Non quas itaque qui odio
+          incidunt in ducimus consequatur. Eum ullam eius hic voluptates tenetur nam consectetur possimus. Et voluptatem
+          consequatur.</p>
+        <div class="flex justify-between mt-5">
+          <div class="flex flex-wrap items-center space-x-2">
+            <img src="images/ai.png" class="w-4" alt="">
+          </div>
+
+          <div class="flex flex-wrap space-x-1 space-y-1">
+            <a href="#" class="text-white px-5 rounded-full text-sm py-1 bg-gray-600 uppercase">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-5/12">
+        <img src="images/project1.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container text-white mx-auto justify-center mt-32">
+    <div class="md:w-1/2 justify-center mx-auto text-center">
+      <h3 class="font-anticDidone text-2xl space-y-2">get in touch</h3>
+      <p>I’m currently open to new opportunities, inbox is always open! Find me everywhere @amyyang15</p>
+      <div class="flex justify-evenly mt-5">
+        <i class="fa-brands fa-medium"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-brands fa-figma"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-gray-400 mx-auto justify-center mt-32 border-gray-700 border-t ">
+    <div class="md:w-1/2 justify-center mx-auto text-center py-10">
+      <div class="flex justify-evenly">
+        <a href="#" class="uppercase">About</a>
+        <a href="#" class="uppercase">Project</a>
+        <a href="#" class="uppercase">Contact</a>
+      </div>
+      <p class="mt-5">&copy; 2022 All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
